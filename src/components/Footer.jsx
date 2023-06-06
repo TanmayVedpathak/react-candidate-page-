@@ -7,6 +7,7 @@ import {
   MDBIcon,
 } from "mdb-react-ui-kit";
 import logo from "../images/Header-Logo.png";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function App() {
   return (
