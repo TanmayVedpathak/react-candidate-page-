@@ -21,9 +21,7 @@ export default function App() {
               xl="3"
               className="gap-col mx-auto mb-4 text-center"
             >
-              <h6 className="text-uppercase fw-bold mb-4">
-                <img src={logo} alt="logo" width="180px" />
-              </h6>
+              <img src={logo} alt="logo" width="180px" className="mb-4" />
               <p>
                 Millions of jobs. Search by what matters to you and find the one
                 that's right for you.
