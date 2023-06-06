@@ -7,17 +7,21 @@ import {
   MDBIcon,
 } from "mdb-react-ui-kit";
 import logo from "../images/Header-Logo.png";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import "../App.css";
 
 export default function App() {
   return (
-    <MDBFooter bgColor="light" className="text-center text-lg-start text-muted">
+    <MDBFooter className="text-center text-lg-start text-muted footer">
       <section className="">
         <MDBContainer className="text-center text-md-start mt-5">
           <MDBRow className="mt-3">
-            <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4 text-center">
+            <MDBCol
+              md="3"
+              lg="4"
+              xl="3"
+              className="gap-col mx-auto mb-4 text-center"
+            >
               <h6 className="text-uppercase fw-bold mb-4">
-                <MDBIcon icon="gem" className="me-3" />
                 <img src={logo} alt="logo" width="180px" />
               </h6>
               <p>
@@ -26,96 +30,76 @@ export default function App() {
               </p>
             </MDBCol>
 
-            <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
+            <MDBCol md="2" lg="2" xl="2" className="gap-col mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Quick Links</h6>
               <p>
-                <a href="#!" className="text-reset">
-                  Angular
+                <a href="#!" className="">
+                  Infrastructure
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  React
+                <a href="#!" className="">
+                  Career Counselling
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Vue
+                <a href="#!" className="">
+                  Blog
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Laravel
+                <a href="#!" className="">
+                  Events
                 </a>
               </p>
             </MDBCol>
 
-            <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
+            <MDBCol md="3" lg="2" xl="2" className=" gap-col mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">Other menus</h6>
               <p>
-                <a href="#!" className="text-reset">
-                  Pricing
+                <a href="#!" className="">
+                  Terms And Conditions
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Settings
+                <a href="#!" className="">
+                  Contact Us
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Help
+                <a href="#!" className="">
+                  Privacy Policy
                 </a>
               </p>
             </MDBCol>
 
-            <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
+            <MDBCol md="3" lg="2" xl="2" className=" gap-col mx-auto mb-4">
               <h6 className="text-uppercase fw-bold mb-4">More</h6>
               <p>
-                <a href="#!" className="text-reset">
-                  Pricing
+                <a href="#!" className="">
+                  Terms Of Use
                 </a>
               </p>
               <p>
-                <a href="#!" className="text-reset">
-                  Settings
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Orders
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Help
+                <a href="#!" className="">
+                  Awards And Events
                 </a>
               </p>
             </MDBCol>
 
             <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-              <a href="/" className="me-4 text-success">
-                <MDBIcon fab icon="facebook-f" />
+              <h6 className="text-uppercase fw-bold mb-4">Follow us</h6>
+              <a href="/" className="me-4 icons text-success">
+                <MDBIcon fab icon="facebook-f" className="icon" />
               </a>
-              <a href="." className="me-4 text-success">
-                <MDBIcon fab icon="twitter" />
+              <a href="." className="me-4 icons text-success">
+                <MDBIcon fab icon="twitter" className="icon" />
               </a>
-              <a href="/" className="me-4 text-success">
-                <MDBIcon fab icon="google" />
+              <a href="/" className="me-4 icons text-success">
+                <MDBIcon fab icon="instagram" className="icon" />
               </a>
-              <a href="/" className="me-4 text-success">
-                <MDBIcon fab icon="instagram" />
-              </a>
-              <a href="/" className="me-4 text-success">
-                <MDBIcon fab icon="linkedin" />
-              </a>
-              <a href="/" className="me-4 text-success">
-                <MDBIcon fab icon="github" />
+              <a href="/" className="me-4 icons text-success">
+                <MDBIcon fab icon="youtube" className="icon" />
               </a>
             </MDBCol>
           </MDBRow>

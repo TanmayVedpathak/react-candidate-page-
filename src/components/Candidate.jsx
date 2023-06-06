@@ -4,6 +4,7 @@ import Feature from "./Feature";
 import Award from "./Award";
 import About from "./About";
 import EESL from "./EESL";
+import Review from "./Review";
 
 function Candidate() {
   return (
@@ -14,6 +15,7 @@ function Candidate() {
         <Award />
         <About />
         <EESL />
+        <Review />
       </div>
       <div className="ad-div"></div>
     </div>
