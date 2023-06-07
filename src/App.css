@@ -6,6 +6,7 @@ ul {
   margin: 0 !important;
 }
 
+<<<<<<< HEAD
 .navbar {
   position: relative;
   display: flex;
@@ -24,6 +25,15 @@ ul {
   align-items: center;
   margin-bottom: 1rem;
 
+=======
+.navbar1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 3px -5px black;
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
 }
 
 .header-logo {
@@ -39,7 +49,11 @@ ul {
 }
 
 .list-item {
+<<<<<<< HEAD
   padding-left: 1rem;
+=======
+  padding-left: 2.5rem;
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
   margin: 0px 10px;
 }
 
@@ -91,6 +105,7 @@ ul {
   flex-direction: column;
   align-items: flex-end;
   gap: 10px;
+<<<<<<< HEAD
 }
 
 .nav-items-open {
@@ -158,6 +173,15 @@ ul {
 
 /* @media (max-width: 768px) {
 
+=======
+}
+
+.nav-items-open {
+  display: block;
+}
+
+@media (max-width: 768px) {
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
   .nav-list {
     display: none;
   }
@@ -177,9 +201,13 @@ ul {
   .mobile-menu-open .nav-items {
     display: block;
   }
+<<<<<<< HEAD
 
 
 } */
+=======
+}
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
 
 /* main page */
 
@@ -264,6 +292,7 @@ ul {
   margin: 0 1rem;
 }
 
+<<<<<<< HEAD
 
 
 @media (max-width: 1000px) {
@@ -281,6 +310,8 @@ ul {
   }
 }
 
+=======
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
 /* Feature */
 .feature {
   margin-top: 5rem;
@@ -291,7 +322,10 @@ ul {
 
 .pCen {
   margin: 1rem 0;
+<<<<<<< HEAD
   padding: 5px 0px;
+=======
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
   text-align: center;
   font-size: 1.2rem;
   color: black;
@@ -301,7 +335,10 @@ ul {
 .feature>.content {
   display: flex;
   flex-wrap: wrap;
+<<<<<<< HEAD
   /* justify-content: ; */
+=======
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
   gap: 1rem;
   margin-bottom: 2rem;
 }
@@ -312,8 +349,13 @@ ul {
   align-items: center;
   text-align: center;
   font-weight: bold;
+<<<<<<< HEAD
   width: 400px;
   height: 300px;
+=======
+  width: 450px;
+  height: 250px;
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
   border: 1px solid black;
   color: black !important;
 }
@@ -321,7 +363,11 @@ ul {
 .feature>.content>.contentText {
   flex-grow: 1;
   margin-left: 1rem;
+<<<<<<< HEAD
   max-width: 600px;
+=======
+  max-width: 800px;
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
 }
 
 .contentText>p {
@@ -333,6 +379,7 @@ p {
   margin: 0;
 }
 
+<<<<<<< HEAD
 
 
 @media (max-width: 1000px) {
@@ -345,6 +392,8 @@ p {
 
 }
 
+=======
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
 /* AWARD */
 
 .award {
@@ -419,7 +468,10 @@ p {
 
 .leftDiv,
 .rightDiv {
+<<<<<<< HEAD
   width: 45%;
+=======
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
   border: 1px solid black;
   border-radius: 15px;
 }
@@ -430,7 +482,10 @@ p {
   margin: 0.3rem 0;
   padding-left: 0.3rem;
   font-size: 1.3rem;
+<<<<<<< HEAD
   font-weight: 700;
+=======
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
 }
 
 .leftDiv>p,
@@ -442,6 +497,7 @@ p {
   line-height: 1.5;
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
 
   .leftDiv,
@@ -451,6 +507,8 @@ p {
 
 }
 
+=======
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
 /* EESL */
 
 .experience,
@@ -474,17 +532,26 @@ p {
 
 .review-flex {
   display: flex;
+<<<<<<< HEAD
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   gap: 1rem;
+=======
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
   padding: 2rem 4rem;
 }
 
 .left-review,
 .right-review {
+<<<<<<< HEAD
   width: 40%;
+=======
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
   border: 1px solid black;
   border-radius: 15px;
   padding: 1rem;
@@ -526,6 +593,7 @@ p {
 
 }
 
+<<<<<<< HEAD
 @media (max-width: 1000px) {
 
   .review-flex {
@@ -539,6 +607,8 @@ p {
   }
 }
 
+=======
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
 /* FOOTER */
 
 .footer {
@@ -560,7 +630,11 @@ p {
 
 .icons {
   background-color: #1C115D;
+<<<<<<< HEAD
   padding: 0.8rem;
+=======
+  padding: 1rem;
+>>>>>>> afac8dd14ea19965027c6c2ab04b57f783b3fa31
   border-radius: 50%;
   color: #d9d9d9;
 }
