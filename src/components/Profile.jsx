@@ -17,14 +17,14 @@ function Profile() {
           condimentum orci, et varius eros semper in
         </p>
       </div>
-      <div>
-        <div>
+      <div className="info-btn">
+        <div className="left">
           <button className="nav-btn">Message</button>
           <button className="nav-btn">Follow</button>
         </div>
-        <div>
-          <p>No. of Followers</p>
-          <p>No. of Followings</p>
+        <div className="right">
+          <button>No. of Followers</button>
+          <button>No. of Followings</button>
         </div>
       </div>
     </div>
