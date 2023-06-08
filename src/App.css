@@ -6,11 +6,11 @@ ul {
   margin: 0 !important;
 }
 
-.navbar {
+.navbar1 {
   position: relative;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
   /* gap: 20px; */
@@ -20,10 +20,8 @@ ul {
 .navbar-toggle {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  margin-bottom: 1rem;
-
 }
 
 .header-logo {
@@ -140,6 +138,10 @@ ul {
     transition: 0.4s linear;
   }
 
+  .navbar1 {
+    justify-content: space-between;
+  }
+
   .nav-list {
     display: block;
   }
@@ -154,6 +156,7 @@ ul {
     font-size: 30px;
     cursor: pointer;
   }
+
 }
 
 /* @media (max-width: 768px) {
@@ -337,12 +340,54 @@ p {
 
 @media (max-width: 1000px) {
   .feature>.content>.video {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 300px;
+    margin: auto;
     height: 200px;
-
   }
 
+  .feature>h1,
+  .award>h1,
+  .about>h1,
+  .experience>h1,
+  .education>h1,
+  .skills>h1,
+  .languages>h1,
+  .review>h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .feature,
+  .profile-info,
+  .award,
+  .about,
+  .experience,
+  .education,
+  .skills,
+  .languages,
+  .review {
+    padding-left: 0;
+    margin-left: 0 !important;
+  }
+
+  .about>p {
+    margin: 0 1rem;
+  }
+
+  .flexDiv {
+    padding: 0 !important;
+  }
+
+  .ad-div {
+    display: none;
+  }
+
+  .review-flex {
+    padding: 0 !important;
+  }
 }
 
 /* AWARD */

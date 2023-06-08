@@ -9,9 +9,6 @@ function Navbar() {
   const breakpoint = 1000;
 
   const toggleNavbar = () => {
-    console.log("1. ", window.innerWidth);
-    console.log("2. ", toggle);
-    console.log("3. ", addClass);
     setToggle(!toggle);
   };
 
@@ -21,7 +18,7 @@ function Navbar() {
   }, [width]);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar1">
       <img className="header-logo" src={logo} alt="logo" />
       <div
         className={`navbar-toggle ${
@@ -40,10 +37,10 @@ function Navbar() {
             <li className="list-item">Contact us</li>
           </ul>
         </div>
-        <div>
-          <button className="nav-btn">My profile</button>
-          <button className="nav-btn">Log out</button>
-        </div>
+      </div>
+      <div>
+        <button className="nav-btn">My profile</button>
+        <button className="nav-btn">Log out</button>
       </div>
       <div onClick={toggleNavbar} className="bars">
         <MDBIcon fas icon="bars" />
